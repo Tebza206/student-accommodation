@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { propertyInfo, features, security, nearby, galleryPhotos, roomTypes } from './data';
 import './App.css';
 import SuspensionOverlay from './SuspensionOverlay';
+import { Analytics } from "@vercel/analytics/react";
 
 const IS_ACCOUNT_ACTIVE = false;
 
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <div className="App">
+      <Analytics />
       {/* Header */}
       <header className="header">
         <div className="container">
