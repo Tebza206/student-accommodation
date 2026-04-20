@@ -6,7 +6,7 @@ import './App.css';
 import SuspensionOverlay from './SuspensionOverlay';
 import { Analytics } from "@vercel/analytics/react";
 
-const IS_ACCOUNT_ACTIVE = false;
+const IS_ACCOUNT_ACTIVE = true;
 
 // Dynamic icon resolver
 const getIcon = (iconName) => {
