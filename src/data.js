@@ -61,13 +61,13 @@ export const galleryPhotos = [
 export const roomTypes = [
   {
     type: "Shared Room",
-    price: "From R3500",
+    price: "R5200",
     features: ["Furnished", "Access to 10 Bathrooms", "Shared Space", "NSFAS Accredited"],
     image: sharing
   },
   {
     type: "Single Room",
-    price: "From R4500",
+    price: "R5200",
     features: ["Furnished", "Access to 10 Bathrooms", "Private Space", "NSFAS Accredited"],
     image: singleRoom
   }
