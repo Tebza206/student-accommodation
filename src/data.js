@@ -127,5 +127,8 @@ export const seoMetadata = {
     description: 'Looking for a res near APB? Mthiyza Properties offers premium, NSFAS-accredited student accommodation with no deposit. WhatsApp +27 78 288 9597.',
     images: ['/images/og-image.jpg'],
   },
+  verification: {
+    google: 'Q773eW1fmY3Izef88sPHRny6JYU_jOw9EfwIMis2_yw',
+  },
 };
 
