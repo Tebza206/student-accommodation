@@ -227,8 +227,15 @@ function App() {
                  key={idx} 
                  style={{ padding: '1rem 2rem', background: 'white', borderRadius: '50px', boxShadow: 'var(--shadow-sm)', fontWeight: '600' }}
                >
-                 <MapPin size={18} style={{ color: 'var(--primary-color)', marginRight: '0.5rem', verticalAlign: 'middle' }} />
-                 {place.text}
+                  <MapPin size={18} style={{ color: 'var(--primary-color)', marginRight: '0.5rem', verticalAlign: 'middle' }} />
+                  <span>
+                    {place.text}
+                    {place.distance && place.distance !== 'Unknown' && (
+                      <span style={{ fontSize: '0.85em', color: '#6b7280', marginLeft: '0.5rem', fontWeight: '400' }}>
+                        ({place.distance})
+                      </span>
+                    )}
+                  </span>
                </motion.div>
              ))}
           </div>

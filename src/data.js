@@ -13,7 +13,7 @@ export const propertyInfo = {
   name: "Mthiyza Properties",
   subtitle: "NSFAS Accredited Student Accommodation",
   location: "Jan Hofmeyer, 1km from UJ Bunting Road Campus",
-  whatsappNumber: "+27633274929"
+  whatsappNumber: "+27782889597"
 };
 
 export const features = [
@@ -37,13 +37,14 @@ export const security = [
 ];
 
 export const nearby = [
-  { text: "UJ Bunting Road", distance: "1km" },
-  { text: "UJ Auckland Park", distance: "Unknown" },
-  { text: "Wits Parktown", distance: "Unknown" },
-  { text: "CTU", distance: "Unknown" },
-  { text: "IMM", distance: "Unknown" },
-  { text: "AFDA", distance: "Unknown" }
+  { text: "UJ Bunting Road (APB)", distance: "1km" },
+  { text: "UJ Auckland Park (APK)", distance: "1.7km" },
+  { text: "AFDA Johannesburg", distance: "1.5km" },
+  { text: "CTU Training Solutions", distance: "1.8km" },
+  { text: "Wits Parktown Campus", distance: "4.1km" },
+  { text: "IMM Graduate School", distance: "3.5km" }
 ];
+
 
 export const galleryPhotos = [
   { src: exterior, title: "Exterior", category: "Exterior" },
@@ -72,3 +73,59 @@ export const roomTypes = [
     image: singleRoom
   }
 ];
+
+export const seoMetadata = {
+  title: 'Mthiyza Properties | NSFAS Accredited Student Accommodation near UJ APB',
+  description: 'Premium student accommodation at Jan Hofmeyer, just 1km from UJ Auckland Park Bunting Road (APB) Campus. NSFAS accredited, fully furnished single and shared student res rooms. No admin or deposit fees!',
+  keywords: [
+    'Mthiyza Properties',
+    'accommodation near APB',
+    'res near APB',
+    'student accommodation UJ Bunting Road',
+    'NSFAS accredited accommodation APB',
+    'UJ Bunting Road student res',
+    'student housing Auckland Park',
+    'off-campus student accommodation Johannesburg',
+    'furnished student rooms Jan Hofmeyer'
+  ],
+  authors: [{ name: 'Mthiyza Properties' }],
+  metadataBase: 'https://www.mthiyzaproperties.co.za',
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    title: 'Mthiyza Properties | NSFAS Accredited Student Res near UJ APB',
+    description: 'Secure, furnished student accommodation just 1km from UJ Bunting Road Campus. Zero deposit and zero admin fees. Apply online or WhatsApp us now!',
+    url: 'https://www.mthiyzaproperties.co.za',
+    siteName: 'Mthiyza Properties',
+    locale: 'en_ZA',
+    type: 'website',
+    images: [
+      {
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Mthiyza Properties - Student Accommodation near UJ Bunting Road Campus',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mthiyza Properties | Student Res near UJ Bunting Road (APB)',
+    description: 'Looking for a res near APB? Mthiyza Properties offers premium, NSFAS-accredited student accommodation with no deposit. WhatsApp +27 78 288 9597.',
+    images: ['/images/og-image.jpg'],
+  },
+};
+
