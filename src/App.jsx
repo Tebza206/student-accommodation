@@ -26,7 +26,12 @@ function App() {
   };
 
   if (!IS_ACCOUNT_ACTIVE) {
-    return <SuspensionOverlay />;
+    return (
+      <>
+        <SuspensionOverlay />
+        <Analytics />
+      </>
+    );
   }
 
   return (
